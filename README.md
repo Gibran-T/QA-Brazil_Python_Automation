@@ -1,3 +1,95 @@
+# 🧪 QA-Brazil Python Automation Project – TripleTen Bootcamp
+
+This repository contains automated test projects developed during **Sprint 7** and **Sprint 8** of the **TripleTen QA Engineering Bootcamp**.
+
+It showcases:
+- Basic Pytest structures with assert-based tests  
+- Advanced automated UI testing using **Selenium** with the **Page Object Model (POM)** pattern  
+- Clear separation between legacy/manual scripts and modern automation layers  
+- Real-world QA architecture with scalable test components  
+
+---
+
+## 📁 Project Structure
+
+QA-Brazil_Python_Automation/
+├── legacy/ # Legacy code (Sprint 7, manual flow)
+│ └── main_sprint7.py # Manual functional test simulation
+│
+├── tests/ # Automated test cases using Pytest
+│ └── test_main.py
+│
+├── urban_routes_project/ # Page Object Models and helpers
+│ ├── urban_routes_main_page.py
+│ ├── helpers.py
+│ └── data.py
+│
+├── .venv/ # Virtual environment (optional in repo)
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
+
+---
+
+## 🚀 How to Run the Tests
+
+### 1. Activate the Virtual Environment (Windows)
+
+```bash
+.\.venv\Scripts\activate
+
+Or create a new one:
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+
+2. Run All Tests (Selenium + Pytest)
+
+pytest tests/test_main.py --disable-warnings -s
+Flags:
+
+--disable-warnings → Suppresses warning messages
+
+-s → Shows print statements in console
+
+📦 Dependencies
+To install all dependencies:
+pip install -r requirements.txt
+
+📚 Learning Outcomes
+✅ Fundamentals of Python test automation
+
+✅ Writing scalable test scripts with Pytest
+
+✅ Applying Page Object Model (POM) with Selenium
+
+✅ Modular architecture for test maintenance and scalability
+
+✅ Integration of helper functions and test data separation
+
+✅ CLI-based test execution and debugging
+
+👤 Author
+Thiago Gibran T. Nunes
+QA Automation Engineer
+International Experience (Canada, USA, Brazil)
+
+Python, Pytest, Selenium
+
+Web & API Testing
+
+ERP / Supply Chain Systems
+
+Git, Jira, CI-ready
+
+📎 GitHub Profile
+🔗 LinkedIn; www.linkedin.com/in/thiago-gibran-a01489b5
+
+📌 Notes
+This repository is public and structured to be reviewed by recruiters or hiring managers.
+
+Each part was developed as part of a real QA Bootcamp, following industry-level methodologies.
+
+---- Portuguese; 
 
 # 🧪 Projeto Sprint 8 – Testes Automatizados com Selenium + Pytest
 
