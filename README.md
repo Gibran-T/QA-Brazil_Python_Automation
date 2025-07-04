@@ -13,20 +13,18 @@ It showcases:
 ## 📁 Project Structure
 
 QA-Brazil_Python_Automation/
-├── legacy/ # Legacy code (Sprint 7, manual flow)
-│ └── main_sprint7.py # Manual functional test simulation
-│
-├── tests/ # Automated test cases using Pytest
-│ └── test_main.py
-│
-├── urban_routes_project/ # Page Object Models and helpers
-│ ├── urban_routes_main_page.py
-│ ├── helpers.py
-│ └── data.py
-│
-├── .venv/ # Virtual environment (optional in repo)
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+├── legacy/                     # Sprint 7 – manual or base tests
+│   └── main_sprint7.py
+├── tests/                      # Automated Pytest scripts
+│   └── test_main.py
+├── urban_routes_project/       # POM pages, data, and helpers
+│   ├── urban_routes_main_page.py
+│   ├── helpers.py
+│   └── data.py
+├── .venv/                      # Python virtual environment (optional)
+├── requirements.txt            # Dependencies
+└── README.md                   # Project documentation (this file)
+
 
 ---
 
